@@ -1,0 +1,31 @@
+id_producto,producto,categoria,precio_base
+P001,Arroz 1 kg,Granos,1250
+P002,Frijoles 900 g,Granos,1450
+P003,Leche 1 L,Lacteos,950
+P004,Pan cuadrado,Panaderia,1800
+P005,Atun 140 g,Enlatados,1350
+P006,Cereal 500 g,Desayunos,3200
+P007,Jabon de baño,Higiene,850
+P008,Detergente 1 kg,Limpieza,2600
+P009,Refresco 2 L,Bebidas,1750
+P010,Cafe 250 g,Bebidas,2800
+P011,Azucar 1 kg,Granos,1100
+P012,Sal 500 g,Granos,650
+P013,Huevos docena,Frescos,2500
+P014,Queso 500 g,Lacteos,3100
+P015,Yogurt 1 L,Lacteos,1900
+P016,Galletas paquete,Snacks,1200
+P017,Pasta 500 g,Abarrotes,950
+P018,Salsa de tomate,Abarrotes,1050
+P019,Aceite 1 L,Abarrotes,2250
+P020,Harina 1 kg,Abarrotes,1150
+P021,Papel higienico 4 rollos,Higiene,2400
+P022,Shampoo 400 ml,Higiene,3500
+P023,Cloro 1 L,Limpieza,1350
+P024,Suavizante 1 L,Limpieza,2100
+P025,Agua 1.5 L,Bebidas,900
+P026,Jugo 1 L,Bebidas,1600
+P027,Papas tostadas,Snacks,1350
+P028,Chocolate barra,Snacks,1100
+P029,Mayonesa 400 g,Abarrotes,1850
+P030,Sardinas lata,Enlatados,1250
