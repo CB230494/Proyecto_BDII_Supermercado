@@ -1,5 +1,4 @@
--- 02_carga_etl.sql
--- Ejecutar después de importar los CSV en STG_PRODUCTOS y STG_VENTAS.
+
 
 -- 1) PRODUCTOS
 MERGE INTO DIM_PRODUCTO d
@@ -59,12 +58,7 @@ WHEN NOT MATCHED THEN
     );
 
 -- 5) FACT VENTAS
--- Reglas principales:
---   a) Normaliza sucursal con INITCAP + TRIM
---   b) Normaliza método de pago con UPPER + TRIM
---   c) Rechaza cantidad/precio nulos o <= 0
---   d) Rechaza productos inexistentes
---   e) DISTINCT ayuda a evitar duplicados exactos del staging
+
 INSERT INTO FACT_VENTAS (
     id_venta, id_tiempo, id_producto_sk, id_sucursal,
     id_metodo_pago, cantidad, precio_unitario, monto_venta
