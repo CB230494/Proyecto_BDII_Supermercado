@@ -1,4 +1,3 @@
--- 03_consultas_analiticas.sql
 
 -- 1. Ventas por mes
 SELECT
