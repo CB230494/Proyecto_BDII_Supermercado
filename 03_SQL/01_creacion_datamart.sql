@@ -1,5 +1,3 @@
--- 01_creacion_datamart.sql
--- Proyecto BDII - Supermercado Nova
 
 -- STAGING
 CREATE TABLE STG_PRODUCTOS (
